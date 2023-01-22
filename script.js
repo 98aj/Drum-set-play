@@ -46,7 +46,7 @@ function makeSuound(key) {
 
 }
 
-// button click event
+//button click event
 
 for (let i = 0; i < d; i++) {
 
