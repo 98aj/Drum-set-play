@@ -6,37 +6,37 @@ function makeSuound(key) {
     
     switch (key) {
         case "w":
-            let tom1 = new Audio("/tom-1.mp3");
+            let tom1 = new Audio("./tom-1.mp3");
             tom1.play();
             break;
 
         case "a":
-            let tom2 = new Audio("/tom-2.mp3");
+            let tom2 = new Audio("./tom-2.mp3");
             tom2.play();
             break;
 
         case "s":
-            let tom3 = new Audio("/tom-3.mp3");
+            let tom3 = new Audio("./tom-3.mp3");
             tom3.play();
             break;
 
         case "d":
-            let tom4 = new Audio("/tom-4.mp3");
+            let tom4 = new Audio("./tom-4.mp3");
             tom4.play();
             break;
 
         case "j":
-            let kicks = new Audio("/kick-bass.mp3");
+            let kicks = new Audio("./kick-bass.mp3");
             kicks.play();
             break;
 
         case "k":
-            let snares = new Audio("/snare.mp3");
+            let snares = new Audio("./snare.mp3");
             snares.play();
             break;
 
         case "l":
-            let crash = new Audio("/crash.mp3");
+            let crash = new Audio("./crash.mp3");
             crash.play();
             break;
         default:
